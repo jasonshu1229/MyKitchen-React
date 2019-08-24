@@ -45,49 +45,76 @@ footer{
             font-weight: bold;
         }
     }
+    li.index i{
+        background: url("/img/index_n.png") no-repeat bottom;
+        background-size: cover;
+    }
     li.shopping i{
-        background: url(../../assets/img/shopping_n.png) no-repeat bottom;
+        background: url("/img/shopping_n.png") no-repeat bottom;
         background-size: cover;
     }
     li.cart i{
-        background: url(../../assets/img/cart_n.png) no-repeat bottom;
+        background: url("/img/cart_n.png") no-repeat bottom;
         background-size: cover;
     }
     li.my i{
-        background: url(../../assets/img/my_n.png) no-repeat bottom;
+        background: url("/img/my_n.png") no-repeat bottom;
         background-size: cover;
     }
     // hover之后改变图片
-    li.index a:hover i{
-        background: url(../../assets/img/index_r.png) no-repeat bottom;
+    // li.index a:hover i{
+    //     background: url("/img/index_r.png") no-repeat bottom;
+    //     background-size: cover;
+    // }
+    // li.shopping a:hover i{
+    //     background: url("/img/shopping_r.png") no-repeat bottom;
+    //     background-size: cover;
+    // }
+    // li.cart a:hover i{
+    //     background: url("/img/cart_r.png") no-repeat bottom;
+    //     background-size: cover;
+    // }
+    // li.my a:hover i{
+    //     background: url("/img/my_r.png") no-repeat bottom;
+    //     background-size: cover;
+    // }
+    li.index .active{
+        color: #5d8640;
+    }
+    
+    li.index .active i{
+        background: url("/img/index_r.png") no-repeat bottom;
         background-size: cover;
     }
-    li.shopping a:hover i{
-        background: url(../../assets/img/shopping_r.png) no-repeat bottom;
+
+    li.shopping .active{
+        color: #5d8640;
+    }
+    
+    li.shopping .active i{
+        background: url("/img/shopping_r.png") no-repeat bottom;
         background-size: cover;
     }
-    li.cart a:hover i{
-        background: url(../../assets/img/cart_r.png) no-repeat bottom;
+
+    li.cart .active{
+        color: #5d8640;
+    }
+    
+    li.cart .active i{
+        background: url("/img/cart_r.png") no-repeat bottom;
         background-size: cover;
     }
-    li.my a:hover i{
-        background: url(../../assets/img/my_r.png) no-repeat bottom;
+
+    li.my .active{
+        color: #5d8640;
+    }
+    
+    li.my .active i{
+        background: url("/img/my_r.png") no-repeat bottom;
         background-size: cover;
     }
     
 }
 
-//------------------------------下面是重定向之后的样式
-li.index .active{
-    color: #5d8640;
-}
 
-li.index .active i{
-    background: url(../../assets/img/index_r.png) no-repeat bottom;
-    background-size: cover;
-}
-li.index i{
-    background: url(../../assets/img/index_n.png) no-repeat bottom;
-    background-size: cover;
-}
-// -----------------------------上面是重定向样式
+
