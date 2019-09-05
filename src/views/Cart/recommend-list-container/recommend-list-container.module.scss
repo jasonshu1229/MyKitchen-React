@@ -1,0 +1,80 @@
+.recommend_list_container{
+    padding: 1rem .28rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .recommend_list_title{
+        margin-bottom: .3rem;
+        width: 4.72rem;
+        height: .3rem;
+        background: url("/img/recommoned.png") center/100%;
+    }
+    .load_more {
+        color: #666;
+        font-size: .28rem;
+    }
+    .recommend_list{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+            .recommend_item:nth-child(3n+2) {
+                margin: 0 .08rem .28rem;
+            }
+            .recommend_item{
+                margin-bottom: .28rem;
+                display: flex;
+                flex-direction: column;
+                border-radius: .1rem;
+                width: 32.5%;
+                height: 3.92rem;
+                .recommend_item_img{
+                    height: 2.26rem;
+                    width: 100%;
+                }
+                .recommend_item_info{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    flex: 1;
+                    padding: .12rem .16rem .22rem;
+                    background: #fff;
+                    p.recommend_item_title{
+                        font-size: .28rem;
+                        color: #333;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                    .recommend_item_price_container{
+                        display: flex;
+                        flex: 1;
+                        justify-content: space-between;
+                        align-items: flex-end;
+                        .recommend_item_price{
+                            display: flex;
+                            flex: 1;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            .recommend_item_old_price{
+                                font-size: .22rem;
+                                color: grey;
+                                text-decoration: line-through;
+                            }
+                            .recommend_item_current_price{
+                                font-size: .28rem;
+                                color: #f96d16;
+                            }
+                        }
+                        .new_add_cart{
+                            margin: 0;
+                            width: .5rem;
+                            height: .5rem;
+                            background: url("/img/add cart.png");
+                            background-size: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }

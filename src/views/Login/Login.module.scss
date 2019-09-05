@@ -1,0 +1,121 @@
+#box{
+    .login_top {
+        width: 7.5rem;
+        height: 7.84rem;
+        position: relative;
+        img{
+            display:block;
+            width:100%;
+        }
+        img.close{
+            position: absolute;
+            top: .46rem;
+            right: .4rem;
+            width: .48rem;        
+        }
+    }
+    .login_tab {
+        background: #fff;
+        height: .96rem;
+        padding: 0 1.4rem;
+        ul{
+            li{
+                width: 1.8rem;
+                border-bottom: .04rem solid #fff;
+                font-size: .32rem;
+                text-align: center;
+                line-height: .96rem;
+                float: left;
+                color: #999;
+            }
+            li.on{
+                // border-bottom: .04rem solid #6eb242;
+                color: #6eb242;
+                border-bottom: .04rem solid #6eb242;
+                z-index:1;
+            }
+            li.second{
+                margin-left: 1.1rem;
+            }
+        }
+    }
+    .login_main {
+        width: 6.42rem;
+        height: 5rem;
+        background: #fff;
+        padding: 0 .54rem;
+        .group_input {
+            position: relative;
+            input{
+                width: 100%;
+                height: 1.1rem;
+                font-size: .30rem;
+                color: #132d01;
+                // color:#ccc;
+                font-weight: 100;
+                outline: 0;
+            }
+            .button{
+                position: absolute;
+                top: .22rem;
+                right: 0;
+                width: 1.54rem;
+                height: .6rem;
+                background: #eee;
+                font-size: .26rem;
+                color: #ccc;
+                text-align: center;
+                border-radius: .12rem;
+                outline: 0;
+                line-height: .6rem;
+                z-index:1;
+            }
+        }
+        .border_bottom {
+            border-bottom: 1px solid #e5e5e5;
+        }
+        button{
+            display: inline-block;
+            width: 6.4rem;
+            height: 1rem;
+            font-size: .36rem;
+            color: #fff;
+            text-align: center;
+            line-height: 1rem;
+            border-radius: .2rem;
+            background: #c3dcb3;
+            margin-left: .01rem;
+            outline: 0;
+        }
+        .msg_footer{
+            .msg_noLogin {
+                float: left;
+                margin-top: .4rem;
+                text-align: center;
+                color: #ccc;
+                font-size: .32rem;
+                a{
+                    color: rgb(195, 221, 179);
+                    text-decoration: underline;
+                    top:-.06rem;
+                    left:.1rem;
+                }
+            }
+            .msg_register {
+                float: right;
+                margin-top: .4rem;
+                text-align: center;
+                color: #6cb13f;
+                font-size: .32rem;
+            }
+        }
+    }
+    .clearfix {
+        zoom: 1;
+    }
+    .pop-up-tip{
+        .bg{
+
+        }
+    }
+}

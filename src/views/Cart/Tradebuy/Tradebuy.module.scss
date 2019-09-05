@@ -1,0 +1,52 @@
+.margin_bottom {
+    margin-bottom: .08rem;
+}
+.cart_list_item{
+    width: 100%;
+    background: #fff;
+    .promotion_msg{
+        // width: 100%;
+        color: #333;
+        font-size: .3rem;
+        line-height: .9rem;
+        padding: 0 .18rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        border-bottom: 1px solid #e6e6e6;
+        span{
+            color: #f96d16;
+            padding: .04rem .1rem;
+            border: 1px solid #f96d16;
+            border-radius: .1rem;
+            vertical-align: initial;
+            margin-right: .2rem;
+            font-size: .26rem;
+        }
+        span.promotion_info{
+            color: #000;
+            font-size: .26rem;
+            line-height: .3rem;
+            border: 0;
+            width: 4.3rem;
+            display: inline-block;
+            word-wrap: break-word;
+            white-space: normal;
+            vertical-align: middle;
+        }
+        span.promotion_modify{
+            float: right;
+            color: #f86c15;
+            font-size: .3rem;
+            border: 0;
+            line-height: .9rem;
+        }
+        span.purchase_list_item {
+            margin-right: 0;
+            padding-right: 0;
+        }
+        .promotion_modify.purchase_list_item {
+            padding-left: 0;
+        }
+    }
+}

@@ -1,0 +1,60 @@
+// img{
+//     width:100%;
+//     display:block;
+// }
+
+.d_advice_info{
+    height: 3.38rem;
+    background: #fff;
+    padding: .26rem 0 0 .24rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    float: left;
+    display: inline;
+    width: 7.26rem;
+    white-space: nowrap;
+    font-size: 0;
+    .advice_group{
+        display: inline-block;
+        margin-right: .36rem;
+        width: 1.9rem;
+        position: relative;
+        vertical-align: top;
+        .group_icon{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: .54rem;
+        }
+        .group_name{
+            font-size: .24rem;
+            margin-top: .24rem;
+            width: 1.9rem;
+        }
+        .m_price{
+            margin-top: .14rem;
+            font-size: .2rem;
+            color: #bababa;
+            text-decoration: line-through;
+        }
+        .o_price{
+            margin-top: .14rem;
+            font-size: .24rem;
+            color: #001e00;
+        }
+        .add_cart{
+            position: absolute;
+            top: 2.8rem;
+            left: 1.42rem;
+            width: .38rem;
+            img{
+                display: block;
+            }
+        }
+        .ellipsis {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+}

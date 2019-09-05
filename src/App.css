@@ -1,8 +1,9 @@
-* {
+ *{
     margin: 0;
     padding: 0;
     line-height: 1;
     vertical-align: middle;
+    zoom:1;
   }
   html{
     height: 100%;
@@ -12,12 +13,12 @@
   li{
     list-style: none;
   }
-  section{
+  /* section{
     margin-bottom: 1.5rem;
-  }
+  } */
   img{
     width: 100%;
-    display: block;
+    display: inline-block;
   }
   a, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, img, li, ol, p, span, table, td, th, ul {
     border: 0;
@@ -26,3 +27,24 @@
     border: none;
     vertical-align: middle;
   }
+
+  body, html {
+    font-family: PingFangSC-Regular,Source Han Sans,Microsoft Yahei;
+    width: 100%;
+    height: 100%;
+    background: #f4f4f4;
+    color: #666;
+}
+
+*, body, html {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+a{
+  text-decoration: none;
+}
+button{
+  border:none;
+  cursor:pointer;
+}

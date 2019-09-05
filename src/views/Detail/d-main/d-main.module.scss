@@ -1,0 +1,80 @@
+.clearfix {
+    zoom: 1;
+}
+.d_main{
+    background: #fff;
+    margin: -.48rem 0 0 .24rem;
+    width: 7.02rem;
+    // TODO:新增了高度
+    height: 1.68rem;
+    box-shadow: 1px -1px 20px rgba(34,34,34,.3);
+    position: relative;
+    border-radius: 10px;
+    padding-top: .46rem;
+    z-index: 2;
+    padding-bottom: .32rem;
+    .sign {
+        position: absolute;
+        top: -.26rem;
+        left: .38rem;
+        height: .52rem;
+    }
+    h1{
+        font-size: .36rem;
+        color: #001e00;
+        margin: 0 0 0 .23rem;
+        height: .45rem;
+        line-height: .44rem;
+        span{
+            font-size: .32rem;
+            color: #6eb042;
+        }
+    }
+    .ellipsis {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    h2{
+        font-weight: 400;
+        font-size: .28rem;
+        color: #999;
+        margin: .23rem 0 0 .23rem;
+        line-height: .42rem;
+        display: -webkit-box;
+        overflow: hidden;
+    }
+    .price{
+        margin: .25rem 0 0 .23rem;
+        font-size: 0;
+        float: left;
+        .o_price{
+            font-size: .36rem;
+            color: #ff5918;
+            float: left;
+        }
+        .m_price{
+            font-size: .26rem;
+            color: #ccc;
+            margin: .05rem 0 0 .28rem;
+            float: left;
+            text-decoration: line-through;
+        }
+    }
+    .d_icon{
+        float: right;
+        margin: .1rem .32rem 0 0;
+        .icon1{
+            width: .62rem;
+            height: .46rem;
+            border: .02rem solid #6eb042;
+            text-align: center;
+            line-height: .46rem;
+            border-radius: .12rem;
+            font-size: .26rem;
+            color: #6eb042;
+            margin: 0 0 0 .22rem;
+            float: right;
+        }
+    }
+}

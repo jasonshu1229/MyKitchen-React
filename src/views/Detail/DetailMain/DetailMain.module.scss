@@ -1,0 +1,37 @@
+.detailMain{
+    width: 100%;
+    overflow: hidden;
+    .mydetail{
+        table{
+            // width: 7.18rem;
+            display: table;
+            border-collapse: separate;
+            border-spacing: 2px;
+            // background-color: lightblue;
+            tbody{
+                display: table-row-group;
+                vertical-align: middle;
+                border-color: inherit;
+                tr{
+                    display: table-row;
+                    vertical-align: inherit;
+                    border-color: inherit;
+                    td{
+                        display: table-cell;
+                        vertical-align: inherit;
+                        p{
+                            line-height: 1.5;
+                            width: 7.5rem;
+                            strong{
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                    td,th{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}

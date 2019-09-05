@@ -1,0 +1,93 @@
+.check_footer{
+    position: fixed;
+    bottom: 1rem;
+    left: 0;
+    width: 100%;
+    height: 1rem;
+    font-size: .36rem;
+    color: #f96d16;
+    z-index: 99;
+    background: #fff;
+    padding: 0;
+    padding-left: .2rem;
+    .check_all{
+        width: .34rem;
+        height: .34rem;
+        top: 50%;
+        margin-top: -.17rem;
+        float: left;
+    }
+    .i_uncheck {
+        background: url(/img/unselect.png) no-repeat;
+        background-size: 100% .34rem;
+        border: 0;
+        background-position: 100%;
+    }
+    .i_checked{
+        background: url(/img/selected.png) no-repeat;
+        background-size: 100% .34rem;
+        border: 0;
+        background-position: 100%;
+    }
+    .check_price {
+        float: left;
+        height: 1.14rem;
+        margin-left: .2rem;
+        padding: .16rem 0;
+        line-height: .68rem;
+
+        .cart_total_price {
+            float: left;
+            margin-top: .15rem;
+            span{
+                font-size: .26rem;
+                color: #333;
+            }
+        }
+        .freight {
+            float: left;
+            font-size: .26rem;
+            color: #999;
+            line-height: .68rem;
+            margin-left: .2rem;
+        }
+    }
+    .btn_checkout{
+        height: 100%;
+        width: 2.3rem;
+        float: right;
+        line-height: 1rem;
+        color: #fff;
+        background: #f96d16;
+        text-align: center;
+    }
+    .btn_uncheckout{
+        height: 100%;
+        width: 2.3rem;
+        float: right;
+        line-height: 1rem;
+        color: #fff;
+        background: rgb(153, 153, 153);
+        text-align: center;
+    }
+    .btn_coudan{
+        height: .5rem;
+        position: absolute;
+        top: -.7rem;
+        background: #f1c0a3;
+        padding: 0 .1rem;
+        border-radius: .25rem;
+        color: #fff;
+        font-size: .3rem;
+        line-height: .5rem;
+        margin-left: .74rem;
+        p{
+            width: 0;
+            height: 0;
+            left: .86rem;
+            border-left: .12rem solid transparent;
+            border-right: .12rem solid transparent;
+            border-top: .12rem solid #f1c0a3;
+        }
+    }
+}

@@ -1,0 +1,146 @@
+.cateDetail3 {
+
+    .header {
+        position: fixed;
+        width: 100%;
+        height: .9rem;
+        line-height: .9rem;
+        color: #333;
+        font-size: .3rem;
+        padding: 0 .24rem;
+        background: #fff;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        border-bottom: 1px solid #e5e5e5;
+
+        .prevbtn {
+            width: 1.4rem;
+            float: left;
+
+            img {
+                margin-top: .17rem;
+                height: .64rem;
+                width: auto;
+            }
+        }
+
+        .title {
+            height: 100%;
+            line-height: .9rem;
+            width: 4.22rem;
+            float: left;
+            text-align: center;
+        }
+
+        .cart {
+            width: 1.4rem;
+            float: right;
+            text-align: right;
+
+            img {
+                width: .44rem;
+                height: .44rem;
+                margin-top: .2rem;
+                margin-left: .35rem;
+            }
+
+            .dot {
+                position: absolute;
+                height: .3rem;
+                width: .3rem;
+                right: .73rem;
+                top: .15rem;
+                font-size: .24rem;
+                background: #ee7c1b;
+                border-radius: 50%;
+                line-height: .3rem;
+                color: #fff;
+                text-align: center;
+            }
+        }
+    }
+
+    .goodsList {
+        * {
+            box-sizing: border-box
+        }
+
+        font-size: .28rem;
+        width: 100%;
+        top: .9rem;
+        background: #fff;
+
+        .goodsCon {
+            width: 100%;
+            height: 2.92rem;
+            padding: .4rem .24rem .32rem;
+            border-bottom: .01rem solid #e5e5e5;
+
+            .leftImg {
+                float: left;
+                width: 2.2rem;
+                height: 2.2rem;
+                position: relative;
+            }
+
+            .rightCon {
+                margin-left: .2rem;
+                float: right;
+                width: 4.6rem;
+                height: 100%;
+
+                .goodsName {
+                    width: 100%;
+                    height: .84rem;
+                    line-height: .42rem;
+                    font-size: .3rem;
+                    font-weight: 600;
+                    letter-spacing: .02rem;
+                    overflow: hidden;
+                    margin-bottom: .1rem;
+                    color: #666;
+                }
+
+                .goodsPrice {
+                    margin-top: .85rem;
+
+                    .Price {
+                        float: left;
+                        font-size: .38rem;
+                        color: #ff5918;
+                        margin-right: .2rem;
+                    }
+
+                    .marketPrice {
+                        float: left;
+                        text-decoration: line-through;
+                        font-size: .32rem;
+                        color: #ccc;
+                        margin-top: .07rem;
+                        margin-left: .15rem;
+                    }
+
+                    .addIcon {
+                        float: right;
+                        width: .52rem;
+                        height: .52rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .nothingMore {
+        background: #fff;
+        color: #666;
+        font-size: .28rem;
+        text-align: center;
+        line-height: 1rem;
+    }
+}
+
+body {
+    background: #f4f4f4;
+
+}

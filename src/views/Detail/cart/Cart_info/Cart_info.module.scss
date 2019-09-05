@@ -1,0 +1,101 @@
+.cart_info, .cart_on {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 4;
+}
+img{
+    display:block;
+    width:100%;
+}
+.cart_info {
+    bottom: 1rem;
+    background: #fff;
+    height: 2.22rem;
+    padding: .74rem 0 .74rem .24rem;
+    .close {
+        width: .36rem;
+        height: .36rem;
+        position: absolute;
+        top: .28rem;
+        left: 6.89rem;
+        img{
+            display:block;
+            width:100%;
+        }
+    }
+    .good {
+        width: 2.2rem;
+        border: 1px solid #e5e5e5;
+        border-radius: 10px;
+        float: left;
+    }
+    p {
+        font-size: .28rem;
+        color: #999;
+        position: absolute;
+        left: 2.74rem;
+        top: .74rem;
+    }
+    .price {
+        float: left;
+        font-size: .36rem;
+        color: #ff5918;
+        position: absolute;
+        left: 2.74rem;
+        top: 1.2rem;
+    }
+    span {
+        font-size: .3rem;
+        color: #001e00;
+        position: absolute;
+        left: 2.74rem;
+        top: 2.4rem;
+    }
+    .addmin {
+        width: 2.94rem;
+        height: .8rem;
+        border: 1px solid #e5e5e5;
+        border-radius: .24rem;
+        position: absolute;
+        left: 4.2rem;
+        top: 2.15rem;
+        font-size: 0;
+        .min {
+            width: .38rem;
+            height: .38rem;
+            position: absolute;
+            left: .34rem;
+            top: .25rem;
+            img {
+                width: .37rem;
+            }
+        }
+        input {
+            width: 1.1rem;
+            height: .4rem;
+            position: absolute;
+            font-size: .36rem;
+            color: #001e00;
+            text-align: center;
+            top: .21rem;
+            left: 1rem;
+            border-left: 1px solid #e5e5e5;
+            border-right: 1px solid #e5e5e5;
+            border-radius: 0;
+        }
+        .add {
+            width: .38rem;
+            height: .38rem;
+            position: absolute;
+            // left: 2.35rem;
+            //todo 引入antd后央视冲突，调了left值
+            left:2rem;
+            top: .24rem;
+            img{
+                width: .37rem;
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+section.time_nav{
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    top: .9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.08rem;
+    background: #fff;
+    .time_nav_title{
+        display: flex;
+        font-size: .28rem;
+        color: #2e2e2e;
+        .time_nav_icon{
+            margin: .02rem .33rem 0 .45rem;
+            width: .34rem;
+            height: .34rem;
+        }
+        .time_nav_data{
+            margin-left: .1rem;
+            font-size: .3rem;
+            font-weight: bolder;
+            color: #f86c15;
+        }
+    }
+    .time_nav_info{
+        margin-right: .16rem;
+        font-size: .3rem;
+        color: #f86c15;
+    }
+}

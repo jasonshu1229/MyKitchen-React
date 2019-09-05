@@ -1,0 +1,24 @@
+.d_info{
+    height: 1.46rem;
+    background: #fff;
+    padding: .42rem 0 0 .24rem;
+    .condition{
+        float: left;
+        font-size: .28rem;
+        width: 3.51rem;
+        color: #001e00;
+        span{
+            color: #999;
+        }
+        .width_14{
+            width: 1.4rem;
+            display: inline-block;
+        }
+    }
+    .condition_top{
+        margin-top: .5rem;
+        span{
+            color: #999;
+        }
+    }
+}

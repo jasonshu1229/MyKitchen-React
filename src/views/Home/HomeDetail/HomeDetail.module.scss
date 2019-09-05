@@ -1,0 +1,95 @@
+.homeDetail {
+  background-image: url("https://img.wochu.cn/upload/a9d8c0a1-06b9-467f-a936-1626fa623a1b.jpg");
+  height: 100%;
+
+  img {
+    width: 100%;
+  }
+
+  .bigCon:nth-child(10) {
+    padding-left: .19rem;
+    width: 100%;
+
+    .bigImg {
+      height: 0;
+    }
+
+    .smallCon {
+      float: left;
+      margin-right: .18rem;
+      margin-bottom: .15rem;
+      border-radius: .12rem;
+      width: 30%;
+      height: 3.92rem;
+      background: #fff;
+
+      .smallImg {
+        width: 80%;
+        margin: .15rem 0 0 10%;
+      }
+
+      .goodName {
+        text-align: center;
+        width: 100%;
+        height: 0.58rem;
+        font-size: 0.26rem;
+        line-height: 0.25rem;
+        padding-top: 0.2rem;
+        color: #333;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .goodPrice {
+        height: 0.64rem;
+        margin-top: 0.08rem;
+
+        .leftCon {
+          height: 0.64rem;
+          width: 1.3rem;
+          float: left;
+          margin-left: .1rem;
+
+          .marketPrice {
+            font-size: 0.24rem;
+            color: #ccc;
+            text-decoration: line-through;
+            line-height: 0.24rem;
+            height: auto;
+            padding-left: 0.21rem;
+          }
+
+          .nowPrice {
+            height: 0.3rem;
+            font-size: 0.3rem;
+            color: #f96d16;
+            line-height: 0.3rem;
+            margin-top: 0.1rem;
+            padding-left: 0.15rem;
+          }
+        }
+
+        .rightCon {
+          width: 0.6rem;
+          height: 0.6rem;
+          line-height: 0.6rem;
+          float: right;
+          text-align: center;
+          margin-right: .1rem;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .coming {
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    font-size: .5rem;
+  }
+}

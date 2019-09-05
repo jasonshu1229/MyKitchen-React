@@ -1,0 +1,41 @@
+.youxuan {
+    height:13.8rem;
+    padding-top:.2rem;
+    position: absolute;
+    width: 5.7rem;
+    float: right;
+    right: 0;
+    top: 1.09rem;
+    bottom: 1.15rem;
+    overflow: hidden;
+    border-left: 1px solid #e5e5e5;
+    background: #fff;
+    .listCon {
+      float: left;
+      .content {
+        width: 1.58rem;
+        margin-right: 0.22rem;
+        height: 2.2rem;
+        text-align: center;
+        img {
+            margin-left:.25rem;
+          width: 1rem;
+          border-radius: 50%;
+          height: 1rem;
+        }
+        p {
+          width: 1.3rem;
+          height: 0.86rem;
+          font-size: 0.24rem;
+          color: #666;
+          line-height: 0.34rem;
+          padding-top: 0.2rem;
+          margin-left: 0.21rem;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+  
