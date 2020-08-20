@@ -69,13 +69,13 @@ class Home extends Component {
            this.setState({
                carouselList:res.data.data.carousel,
                topNavList1:res.data.data.recommendedContent[0].items,
-               topNavList2:res.data.data.recommendedContent[1].items,
+              //  topNavList2:res.data.data.recommendedContent[1].items,
            })
         })
         axios({
             url:"http://api9.wochu.cn/api/app/acts?version=20.0.0&source=H",
         }).then(res=>{
-            // console.log(res.data.data.acts)
+            console.log(res.data.data.acts)
            this.setState({
             broadlist : res.data.data.acts[0].items,
             titleImg : res.data.data.acts[0].templateImgUrl,
@@ -92,27 +92,27 @@ class Home extends Component {
             labelView2 : res.data.data.acts[7].items[0].labels,
             temp_list2 : res.data.data.acts[7],
             // spiltPrice2(this.imgView2.price.toString()),
-            priceList2:res.data.data.acts[7].items[0].price.toString().split("."),
+            // priceList2:res.data.data.acts[7].items[0].price.toString().split("."),
             link_img4 : res.data.data.acts[9].items[0],
             goodsList1 : res.data.data.acts[10].items,
             link_img5 : res.data.data.acts[11].items[0],
             goodsList2 : res.data.data.acts[12].items,
             link_img6 : res.data.data.acts[13].items[0],
             goodsList3 : res.data.data.acts[14].items,
-            link_img7 : res.data.data.acts[15].items[0],
-            goodsList4 : res.data.data.acts[16].items,
-            link_img8 : res.data.data.acts[17].items[0],
-            goodsList5 : res.data.data.acts[18].items,
-            link_img9 : res.data.data.acts[19].items[0],
-            goodsList6 : res.data.data.acts[20].items,
-            link_img10 : res.data.data.acts[21].items[0],
-            goodsList7 : res.data.data.acts[22].items,
-            link_img11 : res.data.data.acts[23].items[0],
-            goodsList8 : res.data.data.acts[24].items,
-            link_img12 : res.data.data.acts[25].items[0],
-            goodsList9 : res.data.data.acts[26].items,
-            link_img13 : res.data.data.acts[27].items[0],
-            goodsList10 : res.data.data.acts[28].items,
+            // link_img7 : res.data.data.acts[15].items[0],
+            // goodsList4 : res.data.data.acts[16].items,
+            // link_img8 : res.data.data.acts[17].items[0],
+            // goodsList5 : res.data.data.acts[18].items,
+            // link_img9 : res.data.data.acts[19].items[0],
+            // goodsList6 : res.data.data.acts[20].items,
+            // link_img10 : res.data.data.acts[21].items[0],
+            // goodsList7 : res.data.data.acts[22].items,
+            // link_img11 : res.data.data.acts[23].items[0],
+            // goodsList8 : res.data.data.acts[24].items,
+            // link_img12 : res.data.data.acts[25].items[0],
+            // goodsList9 : res.data.data.acts[26].items,
+            // link_img13 : res.data.data.acts[27].items[0],
+            // goodsList10 : res.data.data.acts[28].items,
             // <<<<<<<<<<<<<<<<<<<<GoodsSwiper<<<<<<<<<<<<<<<<<<<<<<<<
             goodsSwiper1 : res.data.data.acts[3].items,
             goodsSwiper2 : res.data.data.acts[8].items,
